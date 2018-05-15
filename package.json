@@ -33,10 +33,12 @@
 		"spec",
 		"tap"
 	],
+	"peerDependencies": {
+		"mocha": "^5.1.0"
+	},
 	"dependencies": {
 		"dargs": "^5.1.0",
 		"execa": "^0.8.0",
-		"mocha": "^4.1.0",
 		"npm-run-path": "^2.0.2",
 		"plugin-error": "^0.1.2",
 		"through2": "^2.0.3"
